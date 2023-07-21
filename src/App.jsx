@@ -3,7 +3,14 @@ import './App.css';
 import Card from './Components/Card/';
 import Votes from './dumpdata.json';
 
+
+
+
+      
+
 function App() {
+
+  
   const itemsPerPage = 8; // Nombre d'éléments à afficher par page
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
