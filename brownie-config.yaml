@@ -1,0 +1,8 @@
+dotenv : .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+api:
+  api_key: ${x-tva-sa-id}
+  api_secret_key: ${x-tva-sa-secret}
